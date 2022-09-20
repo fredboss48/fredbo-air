@@ -1,0 +1,194 @@
+* {
+    line-height: 2px;
+    font-family: 'Acme', sans-serif;
+    
+}
+body {
+    background-color: #DBDBD9;
+    margin: 15px 0px 0px 0px ;
+    color: #DBDBD9;
+   
+}
+header {
+    background: url(../img/arriereplan5.jpg) 100% fixed;
+    background-size: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 2px;
+} 
+
+h1.titre {
+    font-size: 100px;
+    margin-top: 120px ;
+    text-transform: uppercase;
+}
+h3.slogan {
+    font-size: 30px;
+    font-style: italic;
+}
+/* destinations */
+
+section#destinations {
+    margin: 0 0% 0 5%;
+}
+
+section#destinations h3{
+    padding-bottom: 10px;
+    padding-top: 75px;
+    margin-top: 20px;
+    opacity: 0.5;
+    color: #373737;
+}
+
+div.destination-item {
+    color: #373737;
+    width: 180px;
+    height: 300px;
+    margin: 20px;
+    padding: 2px;
+    position: relative;
+    flex: 0 0 250px;
+    background-repeat: no-repeat;
+    transition: 0.3s all;
+}
+
+div.destination-item:hover {
+    transform: scale(1.15);
+    
+}
+div.destinations-group {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+    margin: 0px 20px 0px 20px ;
+    padding: 0.5px;
+}
+.barcelonne {
+    background: url(../img/barcelonne2.jpg) 100% ;
+   background-size: 100% ;
+}
+.dubai {
+    background: url(../img/dubai2.jpg ) 110%;
+    background-size: 100% ;
+}
+.paris {
+    background: url(../img/paris2.jpg)100% ;
+    background-size: 100% ;
+}
+.lome {
+    background: url(../img/lomé.jpg)100% ;
+    background-size: 100% ;
+}
+.phillipines {
+    background: url(../img/phillipines1.jpg)100% ;
+    background-size: 100% ;
+}
+.londres {
+    background: url(../img/londres2.jpg) 100%;
+    background-size: 100% ;
+}
+.tunis {
+    background: url(../img/tunis1.jpg) 100%;
+    background-size: 100% ;
+}
+.tokyo {
+    background: url(../img/tokyo2.jpg) 100% ;
+    background-size: 100% ;
+}
+.newyork {
+    background: url(../img/newyork1.jpg) 100% ;
+    background-size: 100% ;
+}
+.overlay {
+   
+    position: absolute;
+    left: 0;
+    right: 0 ;
+    bottom: 0;
+    top: 0;
+
+}
+span.nom {
+    position: relative;
+    color: #373737;
+    background-color: #DBDBD9;
+    top: 30px;
+    float: right;
+    padding: 18px;
+    font-size: 25px;
+}
+span.prix {
+    position: relative;
+    color: #DBDBD9;
+    background-color: rgb(221, 148, 11);
+    padding: 10px;
+    font-size: 25px;
+    top: 220px;
+}
+/* formulaire de recherche */
+input[type="date" i] {
+    padding: 2px;
+    
+}
+input {
+    font-size: 16px; 
+    line-height: normal;
+    cursor: pointer; 
+}
+
+select {
+    font-size: 16px;
+}
+
+header form {
+    background-color: orange ;
+    padding: 20px;
+    background-size: 20px;
+}
+
+.search-form {
+    transform: translateY(10px);
+}
+
+.form-group {
+    color: #ffff;
+}
+.form-group {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 10px;
+     
+}
+.form-group input, select, option {
+    border: none;
+    padding: 5px;
+    background-color: #ffe4c4 ;
+
+}
+.form-group label {
+    margin: 5px;
+    padding: 10px;
+}
+.form-submit {
+    text-align: center;
+   
+}
+.form-submit input {
+    background-color: #373737;
+    border: none;
+    color: #DBDBD9;
+    font-size: 25px;
+    margin-top: 15px ;
+}
+/* pied de page */
+footer p {
+    text-align: center;
+    color: #373737;
+    padding: 10px;
+    font-size: 20px;
+}
