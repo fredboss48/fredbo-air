@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FRED'Air company  </title>
+        <!-- lier html a css -->
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Acme&family=Aref+Ruqaa+Ink&family=Lobster+Two&family=Martel:wght@200&family=Satisfy&display=swap" rel="stylesheet">
+        <meta charset="utf-8">
+    </head>
+    <body>
+
+        <!-- balise pou lehaut de page -->
+        <header>
+            <!-- titre de la page -->
+            <h1 class="titre">FREDBO'Air ✈</h1>
+
+            <!-- slogan -->
+            <h3 class="slogan"> «La tête dans les nuages !»</h3>
+
+            <!-- formulaire de recherche -->
+           <div class="search-form">
+                <form method="post">
+                    <div class="form-group">
+                        <label for="provenance">Ville de départ</label>
+                        <input type="text" name="provenance" id="provenance" placeholder="Paris, Tokyo, ...">
+
+                        <label for="provenance">Ville d'arrivée</label>
+                        <input type="text" name="arrivee" id="arrivee" placeholder="Paris, Tokyo, ...">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="depart">Date de départ</label>
+                        <input type="date" name="depart" id="depart" value="19/09/2022">
+
+                        <label for="retour">Date de retour</label>
+                        <input type="date" name="retour" id="retour" value="08/10/2022">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="adultes">Nombre d'adultes</label>
+                            <select name="adultes" id="adultes">
+                                <option selected="selected">0 adulte</option>
+                                <option>1 adulte</option>   
+                                <option>2 adultes</option>
+                                <option>3 adultes</option>
+                                <option>4 adultes</option>
+                                <option>5 adultes</option>
+                            </select>
+
+                            <label for="adultes">Nombre d'adultes</label>
+                            <select name="adultes" id="adultes">
+                                <option selected="selected">0 enfant</option>
+                                <option>1 enfant</option>   
+                                <option>2 enfants</option>
+                                <option>3 enfants</option>
+                                <option>4 enfants</option>
+                                <option>5 enfants</option>
+                            </select>
+
+                            <label for="type">Categorie</label>
+                            <select name="type" id="type">
+                                <option selected="selected">Classe economique</option>
+                                <option>Classe affaire</option>  
+                            </select>   
+                    </div>
+                        <div class="form-submit">
+                            <input type="submit" value="lancer la recherche" name="recherche" id="recherche">
+                        </div>
+                </form>
+           </div>
+        </header>
+
+        <!--Une section avec les destination   -->
+        <section id="destinations">
+
+            <h3>Nous proposons differentes destinations por decouvrir le monde !</h3>
+
+            <div class="destinations-group">
+                <!-- destination1 -->
+                <div class="destination-item barcelonne">
+                    <div class="overlay">
+                        <span class="prix">Dès 80€</span>
+                        <span class="nom">Barcelonne</span>
+                        
+                    </div>
+                </div>
+                <!-- destination2 -->
+                <div class="destination-item dubai">
+                    <div class="overlay">
+                        <span class="prix">Dès 300€</span>
+                        <span class="nom">Dubai</span>
+                    </div>
+                </div>
+                <!-- destination3 -->
+                <div class="destination-item phillipines">
+                    <div class="overlay">
+                        <span class="prix">Dès 1200€</span>
+                        <span class="nom">Phillipines</span>   
+                    </div>
+                </div>
+                <!-- destination4 -->
+                <div class="destination-item londres">
+                    <div class="overlay">
+                        <span class="prix">Dès 60€</span>
+                        <span class="nom">Londres</span>   
+                    </div>
+                </div>
+                 <!-- destination5 -->
+                 <div class="destination-item paris">
+                    <div class="overlay">
+                        <span class="prix">Dès 55€</span>
+                        <span class="nom">Paris</span>   
+                    </div>
+                </div>
+                 <!-- destination6 -->
+                 <div class="destination-item tunis">
+                    <div class="overlay">
+                        <span class="prix">Dès 90€</span>
+                        <span class="nom">Tunis</span>   
+                    </div>
+                </div>
+                 <!-- destination7 -->
+                 <div class="destination-item lome">
+                    <div class="overlay">
+                        <span class="prix">Dès 200€</span>
+                        <span class="nom">Lomé</span>   
+                    </div>
+                </div>
+                 <!-- destination8 -->
+                 <div class="destination-item tokyo">
+                    <div class="overlay">
+                        <span class="prix">Dès 650€</span>
+                        <span class="nom">Tokyo</span>   
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- pied de page -->
+
+        <footer>
+            <p> &copy; 2022 - Fredbo'air - Touts droits reservées </p>
+        </footer>
+
+    </body>
+</html>
